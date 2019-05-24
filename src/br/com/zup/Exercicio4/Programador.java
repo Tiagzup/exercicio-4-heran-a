@@ -44,6 +44,7 @@ public class Programador extends Pessoa {
 		this.gostaDeCafe = gostaDeCafe;
 	}
 	
+	//Método toString
 	public String toString() {
 		String modelo = "";
 		modelo += "Linguagens Usadas -> " + this.getLinguagensUsadas() + "\n";
